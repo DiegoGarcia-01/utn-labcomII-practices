@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeras tablas</title>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Provincia</th>
+                <th>Ciudad</th> 
+                <th>Poblacion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Argentina</td>
+                <td>Santa fe</td>
+                <td>Rosario</td>
+                <td>Habitantes: 1.199.364 </td>
+            </tr>
+            <tr>
+                <td>Uruguay</td>
+                <td>Montevideo</td>
+                <td>Maldonado</td>
+                <td>Habitantes: 86.078 </td>  
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td>Florida</td>
+                <td>Miami</td>
+                <td>Hablitantes: 442.024 </td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+    <h2>Tabla 2</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Equipo</th>
+                <th>Liga</th> 
+                <th>G/A </th>
+                <th>Periodo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"><a href="https://es.wikipedia.org/wiki/Lionel_Messi" target="_blank">Lionel Messi</a></td>
+                <td>F.C.Barcelona</td>
+                <td>La Liga</td>
+                <td>Total de G/A:941</td>
+                <td>2004-2021</td>
+                
+            </tr>
+            <tr>
+                <td>Paris Saint-Germain</td>
+                <td>Ligue 1</td>
+                <td>Total de G/A:66</td>
+                <td>2021-2023</td>
+               
+            </tr>
+            <tr>
+                <td>Inter Miami</td>
+                <td>Major League Soccer</td>
+                <td>Total de G/A:14</td>
+                <td>2023</td>
+                
+            </tr>
+            <tr>
+                <td><a href="https://es.wikipedia.org/wiki/Francesco_Totti" target="_blank">Francesco Totti</a></td>
+                <td>A.S.Roma</td>
+                <td>Serie A</td>
+                <td>Total de G/A:516</td>
+                <td>1992-2017</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"><b>Jugador con mas G/A</b></td>
+                <td><b>Messi:G/A:1.021</b></td>
+            </tr>  
+        </tfoot>
+
+    </table>
+</body>
+</html>

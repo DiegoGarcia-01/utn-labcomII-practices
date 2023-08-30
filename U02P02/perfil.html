@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <h1> Formulario de Estudiante</h1>
+    <fieldset>
+        <legend>Datos del estudiante</legend>
+        <label for="usuario">Tipo de Usuario</label>
+        <input type="text" id="usuario" name="usuario" value="ESTUDIANTE" readonly> <br>
+        <label for="nombrecompleto">Nombre Completo</label> <br>
+        <input type="text" id="nombrecompleto", name="nombrecompleto" placeholder="Nombre y Apellido" required> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email" placeholder="Email" required> <br>
+        <label for="edad">Edad</label> <br>
+        <input type="number" id="edad" placeholder="Edad" required> <br>
+        <label for="seleccionable">Nacionalidades</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="argentina">Argentina</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="urugauy">Urugauy</option>
+            <option value="brasil">Brasil</option>
+        </select> <br>
+        <label for="seleccionable">Condicion Laboral</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="desempleado">Desempleado</option>
+            <option value="en busqueda laboral">En busqueda laboral</option>
+            <option value="trabajo part time">Trabajo part time</option>
+            <option value="trabajo full time">Trabajo full time</option>
+        </select>
+        
+        <fieldset>
+            <legend>Gustos Personales</legend>
+            <label for="gustosmusicales">Gustos Musicales</label>
+            <input type="text" id="gustosmusicales" name="gustosmusicales" placeholder="Gustos Musicales"> <br>
+            <label for="seleccionable">Comidas Preferidas</label>
+            <select name="seleccionable" id="seleccionable">
+                <option value="asado">Asado</option>
+                <option value="milanesa con pure">Milanesa con pure</option>
+                <option value="pizza">Pizza</option>
+            </select>
+        </fieldset>
+        <label for="recordar">Recordar mis datos</label>
+        <input type="checkbox"> <br>
+        <input type="submit" value="Guardar Cambios">
+    </fieldset>
+</body>
+</html>
